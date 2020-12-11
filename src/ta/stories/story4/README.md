@@ -8,9 +8,10 @@ description: Understand Human Body Metabolism, Fat, Calories, Protein, Energy Pa
 
 <br/>
 
-# :butterfly: Weight Loss hidden Truths 
+## :+1: Fundamentals of Weight Loss
 
-## Weight Loss hidden Truths
-## Fundamentals of Weight Loss & hidden Truths you should know
+Before you start working for loosing your weight; please understand the key fundamentals of loosing weight.
+In addition you also need to understand what is metabolism, fatty acid molecules, calories, energy package etc.
+<br/>[Read Full Story](story4)
 
 <div style="text-align: right"><i>Loading more stories for you ...</i></div>

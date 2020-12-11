@@ -17,11 +17,13 @@ module.exports = ctx => ({
     logo: '/myassets/img/logo.png',
     domain: 'https://www.hemasthoughts.com/',
     repo: 'pmarimuthu/hemasthoughts',
+    repoLabel: 'Contribute!',
+    docsBranch: 'development',
+    docsDir: 'src',
+    editLinks: true,
+    editLinkText: 'Help us improve this page!',
     author: 'Hema Thiruchelvam',
     twitterHandle: '@HemaThiru',
-    editLinks: true,
-    docsDir: 'src',
-    algolia: null,
     smoothScroll: true,
 
     nav: [

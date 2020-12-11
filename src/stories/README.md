@@ -21,7 +21,7 @@ This article is about my understanding of *Marketing* and **Digital Marketing** 
 Are you ready to start a healthy lifestyle? and do not know where to start and how to proceed? Then you are at the right place and continue to read my blog.
 </br>[Read Full Story](story2)
 
-## Fundamentals of Weight Loss
+## :+1: Fundamentals of Weight Loss
 
 Before you start working for loosing your weight; please understand the key fundamentals of loosing weight.
 In addition you also need to understand what is metabolism, fatty acid molecules, calories, energy package etc.
