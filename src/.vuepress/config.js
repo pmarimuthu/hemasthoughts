@@ -14,6 +14,7 @@ module.exports = ctx => ({
   ],
 
   themeConfig: {
+    logo: '/myassets/img/logo.png',
     domain: 'https://www.hemasthoughts.com/',
     repo: 'pmarimuthu/hemasthoughts.com',
     author: 'Hema Thiruchelvam',
@@ -30,9 +31,47 @@ module.exports = ctx => ({
       },
       {
         text: 'Stories 📚',
-        link: '/stories/',
-      },
+        items: [
+          {
+            text: 'Top Stories',
+            link: '/stories/'
+          },
+          {
+            text: 'Health',
+            items: [
+              {
+                text: 'Healthy Lifestyle',
+                link: '/stories/story2/'
+              },
+              {
+                text: 'Weight Loss',
+                link: '/stories/story4/'
+              }
+            ]
+          },
+          {
+            text: 'Family',
+            items: [
+              {
+                text: 'Self Transformation',
+                link: '/stories/story3/'
+    
+              }
+            ]
+          },
+          {
+            text: 'Digital',
+            items: [
+              {
+                  text: 'Digital Marketing',
+                  link: '/stories/story1/'
+              }
+            ]
+          }
+        ]
+      }
     ],
+
     sidebar: {
       'aboutme/': [
         {
