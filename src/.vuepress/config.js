@@ -16,7 +16,7 @@ module.exports = ctx => ({
   themeConfig: {
     logo: '/myassets/img/logo.png',
     domain: 'https://www.hemasthoughts.com/',
-    repo: 'pmarimuthu/hemasthoughts.com',
+    repo: 'pmarimuthu/hemasthoughts',
     author: 'Hema Thiruchelvam',
     twitterHandle: '@HemaThiru',
     editLinks: true,
