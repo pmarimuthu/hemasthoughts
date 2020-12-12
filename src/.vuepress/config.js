@@ -17,11 +17,11 @@ module.exports = ctx => ({
     logo: '/myassets/img/logo.png',
     domain: 'https://www.hemasthoughts.com/',
     repo: 'pmarimuthu/hemasthoughts',
-    repoLabel: 'Contribute!',
     docsBranch: 'development',
     docsDir: 'src',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
+    lastUpdated: 'Last Updated On',
     author: 'Hema Thiruchelvam',
     twitterHandle: '@HemaThiru',
     smoothScroll: true,
@@ -32,7 +32,7 @@ module.exports = ctx => ({
         link: '/aboutme/',
       },
       {
-        text: 'Stories 📚',
+        text: 'Stories',
         items: [
           {
             text: 'Top Stories',
@@ -85,7 +85,7 @@ module.exports = ctx => ({
         }
       ], 'stories/': [
         {
-          title: 'Stories 📚',
+          title: 'Stories',
           collapsable: false,
           children: [
             '/stories/story1/',

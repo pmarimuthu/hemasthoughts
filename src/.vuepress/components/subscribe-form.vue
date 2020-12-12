@@ -2,6 +2,7 @@
   <p style="text-align: right">
     {{ msg }}
   </p>
+  <h2>Subscription Form</h2>
 </template>
 
 <script>
@@ -16,7 +17,7 @@
 
     data() {
       return {
-        msg: 'Powered by VuePress + Vue.js'
+        msg: 'Subscribe to receive our news letters'
       }
     }
   }
