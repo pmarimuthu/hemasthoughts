@@ -71,6 +71,10 @@ module.exports = ctx => ({
             ]
           }
         ]
+      },
+      {
+        text: 'Sign In',
+        link: '/member/',
       }
     ],
 
