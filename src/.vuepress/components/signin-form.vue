@@ -6,14 +6,15 @@
     </div>
 
     <p class="horizontalLine"></p>
+    {{ message }}
 
     <div v-show="isSignIn">
         <form>
             <h3 class="signin">Sign In</h3>
             <div class="login-form">
-                <div class="form-header">User Name</div>
+                <div class="form-header">Email</div>
                 <div>
-                <input type="text" class="form-control" v-model="username" required />
+                <input type="email" class="form-control" v-model="email" required />
                 </div>
                 <div class="form-header">Password</div>
                 <div>
@@ -55,17 +56,19 @@
 
 <script>
 export default {
+  
   data() {
     return {
       isSignIn: true,
       isSignUp: false,
-      username: "",
       password: "",
       firstname: "",
       lastname: "",
       email: "",
+      message: ">_"
     };
   },
+
   methods: {
     toggleSign(key) {
         if(key === 0) {
@@ -77,20 +80,13 @@ export default {
             this.isSignUp = true;
         }
     },
+
     login() {
-      if (this.username && this.password) {
-        const data = JSON.stringify({
-          name: this.username,
-          time: new Date().getTime(),
-        });
-      } else {
-        alert("Please complete the content", {
-          messageType: "warning",
-        });
-      }
+      console.log('On Login ...');
     },
+
     register() {
-      console.log("Thank you for Registering with Us!");
+      console.log("On Register ...");
     },
   },
 };

@@ -1,79 +1,127 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <url>
-    <loc>https://www.hemasthoughts.com</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.hemasthoughts.com/stories/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.hemasthoughts.com/stories/story1/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.hemasthoughts.com/stories/story2/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.hemasthoughts.com/stories/story3/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.hemasthoughts.com/stories/story4/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.hemasthoughts.com/aboutme/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.hemasthoughts.com/ta/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.hemasthoughts.com/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.hemasthoughts.com/ta/aboutme/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.hemasthoughts.com/ta/stories/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.hemasthoughts.com/ta/stories/story1/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.hemasthoughts.com/ta/stories/story2/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.hemasthoughts.com/ta/stories/story3/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.hemasthoughts.com/ta/stories/story4/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.hemasthoughts.com/</loc>
+  <lastmod>2020-12-12T10:01:23+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/aboutme/</loc>
+  <lastmod>2020-12-12T10:00:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/stories/</loc>
+  <lastmod>2020-12-12T10:15:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/stories/story2/</loc>
+  <lastmod>2020-12-12T10:15:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/stories/story4/</loc>
+  <lastmod>2020-12-12T10:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/stories/story3/</loc>
+  <lastmod>2020-12-12T10:15:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/stories/story1/</loc>
+  <lastmod>2020-12-12T10:00:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/member/</loc>
+  <lastmod>2020-12-12T10:00:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/ta/</loc>
+  <lastmod>2020-12-12T10:16:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/ta/aboutme/</loc>
+  <lastmod>2020-12-12T10:01:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/ta/stories/</loc>
+  <lastmod>2020-12-12T10:15:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/stories/story1/index.html</loc>
+  <lastmod>2020-12-12T10:00:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/stories/story2/index.html</loc>
+  <lastmod>2020-12-12T10:15:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/stories/story4/index.html</loc>
+  <lastmod>2020-12-12T10:15:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/stories/story3/index.html</loc>
+  <lastmod>2020-12-12T10:15:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/ta/stories/story2/</loc>
+  <lastmod>2020-12-12T10:16:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/ta/stories/story4/</loc>
+  <lastmod>2020-12-12T10:16:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/ta/stories/story3/</loc>
+  <lastmod>2020-12-12T10:16:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/ta/stories/story1/</loc>
+  <lastmod>2020-12-12T10:16:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/ta/stories/story1/index.html</loc>
+  <lastmod>2020-12-12T10:16:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/ta/stories/story2/index.html</loc>
+  <lastmod>2020-12-12T10:16:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/ta/stories/story4/index.html</loc>
+  <lastmod>2020-12-12T10:16:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.hemasthoughts.com/ta/stories/story3/index.html</loc>
+  <lastmod>2020-12-12T10:16:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
 </urlset>

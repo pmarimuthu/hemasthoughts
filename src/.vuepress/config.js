@@ -8,22 +8,21 @@ module.exports = ctx => ({
   description: 'Mindful thoughts on Health | Home | Digital > [தமிழ் / English ]',
 
   head: [
-    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon.ico"}],
-    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon.ico"}],
-    ['link', { rel: "shortcut icon", href: "/favicon.ico"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/myassets/img/favicon.ico"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/myassets/img/favicon.ico"}],
+    ['link', { rel: "shortcut icon", href: "/myassets/img/favicon.ico"}],
   ],
 
   themeConfig: {
     logo: '/myassets/img/logo.png',
-    domain: 'https://www.hemasthoughts.com/',
+    domain: 'www.hemasthoughts.com',
     repo: 'pmarimuthu/hemasthoughts',
     docsBranch: 'development',
     docsDir: 'src',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
-    lastUpdated: 'Last Updated On',
+    lastUpdated: 'Last Updated',
     author: 'Hema Thiruchelvam',
-    twitterHandle: '@HemaThiru',
     smoothScroll: true,
 
     nav: [
@@ -43,21 +42,11 @@ module.exports = ctx => ({
             items: [
               {
                 text: 'Healthy Lifestyle',
-                link: '/stories/story2/'
+                link: '/stories/starting-a-healthy-lifestyle/'
               },
               {
                 text: 'Weight Loss',
-                link: '/stories/story4/'
-              }
-            ]
-          },
-          {
-            text: 'Family',
-            items: [
-              {
-                text: 'Self Transformation',
-                link: '/stories/story3/'
-    
+                link: '/stories/fundamentals-of-weight-loss/'
               }
             ]
           },
@@ -66,7 +55,7 @@ module.exports = ctx => ({
             items: [
               {
                   text: 'Digital Marketing',
-                  link: '/stories/story1/'
+                  link: '/stories/succeed-with-digital-marketing/'
               }
             ]
           }
@@ -74,7 +63,7 @@ module.exports = ctx => ({
       },
       {
         text: 'Sign In',
-        link: '/member/',
+        link: '/member/signin/',
       }
     ],
 
@@ -92,10 +81,9 @@ module.exports = ctx => ({
           title: 'Stories',
           collapsable: false,
           children: [
-            '/stories/story1/',
-            '/stories/story2/',
-            '/stories/story3/',
-            '/stories/story4/',
+            '/stories/starting-a-healthy-lifestyle/',
+            '/stories/fundamentals-of-weight-loss/',
+            '/stories/succeed-with-digital-marketing/',
           ]
         }
       ],
@@ -104,18 +92,15 @@ module.exports = ctx => ({
 
   locales: {
     '/': {
-      lang: 'en-US',
-      selectText: 'Languages',
-      ariaLabel: 'Select language',
-      title: 'Hema\'s Thoughts',
-      description: 'Mindful thoughts on Health | Home | Digital | English'
+      lang: 'English',
+      label: 'English',
+      selectText: 'Languages'
+
     },
     '/ta/': {
-      lang: 'ta-IN',
-      selectText: 'தமிழ்',
-      ariaLabel: 'தமிழ்',
-      title: 'Hema\'s Thoughts',
-      description: 'Mindful thoughts on Health | Home | Digital | தமிழ்'
+      lang: 'Tamil',
+      label: 'தமிழ்',
+      selectText: 'Languages'
     }
   },
 
@@ -126,11 +111,7 @@ module.exports = ctx => ({
       description: $page => $page.frontmatter.description,
       author: (_, $site) => $site.themeConfig.author,
       tags: $page => $page.frontmatter.tags,
-      type: $page => ['stories', 'aboutme'].some(folder => $page.regularPath.startsWith('/' + folder)) ? 'article' : 'website',
       url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
-      image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain && !$page.frontmatter.image.startsWith('http') || '') + $page.frontmatter.image),
-      publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
-      modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated)
     }],
     ['@vuepress/back-to-top', true],
     ['@vuepress/pwa', {
@@ -140,21 +121,6 @@ module.exports = ctx => ({
     ['@vuepress/medium-zoom', true],
     ['@vuepress/google-analytics', {
       ga: 'UA-181818681-1'
-    }],
-    ['container', {
-      type: 'vue',
-      before: '<pre class="vue-container"><code>',
-      after: '</code></pre>'
-    }],
-    ['container', {
-      type: 'upgrade',
-      before: info => `<UpgradePath title="${info}">`,
-      after: '</UpgradePath>'
-    }],
-    ['flowchart']
-  ],
-  extraWatchFiles: [
-    '.vuepress/nav/en.js',
-    '.vuepress/nav/ta.js'
+    }]
   ]
 })

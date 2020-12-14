@@ -1,14 +1,16 @@
 <template>
   <div>
-    <p style="text-align: right">
+    <p style="text-align: center">
+      ~~!~~ <br>
       {{ msg }}
     </p>
-    Welcome
   </div>
 </template>
 
 <script>
 export default {
+  name: 'PoweredBy',
+
   data() {
     return {
       msg: "Powered by VuePress!!",

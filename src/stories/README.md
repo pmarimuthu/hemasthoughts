@@ -10,26 +10,20 @@ description: Hema's Thoughts on Lifestyle Changes for Good living, Digital Marke
 
 :statue_of_liberty: You may be interested to read short stories ...
 
- ## :rocket: How to Succeed with Digital Marketing?
+ ## :rocket: How to Succeed with Digital Marketing? <Badge text="digital" type="warning"/>
 
 This article is about my understanding of *Marketing* and **Digital Marketing** as part of the internship in digital marketing. I am doing this internship in [Digital Deepak](https://digitaldeepak.com/) under the guidance of [Mr. Deepak Kanakaraju](https://www.linkedin.com/in/deepakkanakaraju/).
 [How to Succeed with Digital Marketing?](https://medium.com/@hema.thiruchelvam07/how-to-succeed-with-digital-marketing-75f0b2fddc78/)
-<br/>[Read Full Story](story1)
+<br/>[Read Full Story](succeed-with-digital-marketing)
 
-## :pushpin: Starting a Healthy Lifestyle
+## :pushpin: Starting a Healthy Lifestyle <Badge text="health" />
 
 Are you ready to start a healthy lifestyle? and do not know where to start and how to proceed? Then you are at the right place and continue to read my blog.
-</br>[Read Full Story](story2)
+</br>[Read Full Story](starting-a-healthy-lifestyle)
 
-## :+1: Fundamentals of Weight Loss
+## :+1: Fundamentals of Weight Loss <Badge text="health" />
 
-Before you start working for loosing your weight; please understand the key fundamentals of loosing weight.
-In addition you also need to understand what is metabolism, fatty acid molecules, calories, energy package etc.
-<br/>[Read Full Story](story4)
-
-## :butterfly: Hema 2.0 Loading 
-
-Lets see about a home maker who has now turned into a motivational speaker and successful digital marketer.
-<br/>[Read Full Story](story3)
+In this article, I am going to talk about the fundamentals of weight loss. First, what is weight loss, by its name itself we can understand that it is a reduction in body weight? This can be intentional and unintentional.
+<br/>[Read Full Story](fundamentals-of-weight-loss)
 
 <div style="text-align: right"><i>Loading more stories for you ...</i></div>
