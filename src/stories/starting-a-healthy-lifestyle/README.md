@@ -6,7 +6,7 @@ Title: Starting a Healthy Lifestyle
 description: Starting a Healthy Lifestyle | Balanced Diet | Adequate Exercise | Activity Journal | Food Journal
 ---
 
-## :pushpin: Starting a Healthy Lifestyle <Badge text="health" />
+## Starting a Healthy Lifestyle <Badge text="health" />
 
 Are you ready to start a healthy lifestyle? and do not know where to start and how to proceed? Then you are at the right place and continue to read my blog.
 
