@@ -3,7 +3,7 @@ name: "Hema's Thoughts"
 title: "Member | Hema's Thoughts"
 description: "Membership to receive Articles on Healthy Lifestyle, Digital Marketing strategies, etc., - in simple words that you can understand easily"
 position: 1
-sidebar: auto
+sidebar: false
 search: false
 navbar: false
 author: "Hema Thiruchelvam"
