@@ -4,6 +4,8 @@ lastUpdated: 2020-12-12
 author: Hema Thiruchelvam
 Title: Hemas Thoughts on How to Succeed with Digital Marketing?
 description: How to Succeed with Digital Marketing?
+prev: false
+next: false
 ---
 
 ## How to Succeed with Digital Marketing? <Badge text="digital" type="warning"/>
