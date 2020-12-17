@@ -4,6 +4,8 @@ lastUpdated: 2020-12-12
 author: Hema Thiruchelvam
 Title: Hemas Thoughts on lifestyle changes
 description: Hema's Thoughts on Lifestyle Changes for Good living, Digital Marketing strategies to apply for your business growth
+prev: false
+next: succeed-with-digital-marketing
 ---
 
 # Stories for You !!   :oncoming_automobile:
