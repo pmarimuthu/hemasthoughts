@@ -3,6 +3,9 @@ sidebar: auto
 lastUpdated: 2020-12-12
 author: Hema Thiruchelvam
 
+prev: false
+next: ../starting-a-healthy-lifestyle/
+
 meta:
   - name: titile
     content: Fundamentals of Weight Loss by HemasThoughts.com
@@ -114,9 +117,3 @@ Whenever you are losing the focus on weight loss, just think of why you have sta
 * [Healthy Veg Diet | HEALTHY LIFE STYLE – GOOD FOOD GOOD HEALTH ...](https://healthyvegdiet.com/)
 * [GS NutriFitness | Nutrition & Fitness Consultant](https://gsnutrifitness.com/)
 * [Healthy Blog | your guide to start living Fit and Healthy from MyFitnessFolks](https://myfitnessfolks.com/)
-
-<p align="center"><powered-by></powered-by></p>
-
-
-
-<div style="text-align: right"><i>Loading more stories for you ... Stay tuned!</i></div>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <p style="text-align: center">
-      ~~!~~ <br>
+      ~.~.~ <br>
       {{ msg }}
     </p>
   </div>

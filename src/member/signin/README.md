@@ -5,7 +5,7 @@ description: "Membership to receive Articles on Healthy Lifestyle, Digital Marke
 position: 1
 sidebar: false
 search: false
-navbar: false
+navbar: true
 author: "Hema Thiruchelvam"
 footer: "Copyright © 2020 | Made by Hema Thiruchelvam with ❤️"
 ---
