@@ -1,6 +1,5 @@
 ---
 sidebar: auto
-lastUpdated: 2020-12-12
 author: Hema Thiruchelvam
 Title: Starting a Healthy Lifestyle
 description: Starting a Healthy Lifestyle | Balanced Diet | Adequate Exercise | Activity Journal | Food Journal

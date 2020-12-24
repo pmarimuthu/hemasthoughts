@@ -1,15 +1,14 @@
 ---
 sidebar: auto
-lastUpdated: 2020-12-12
 author: Hema Thiruchelvam
 Title: Hemas Thoughts on How to Succeed with Digital Marketing?
 description: How to Succeed with Digital Marketing?
 
 prev: ../starting-a-healthy-lifestyle/
-next: false
+next: ../deep-marketing-automation/
 ---
 
-## How to Succeed with Digital Marketing? <Badge text="digital" type="warning"/>
+## How to Succeed with Digital Marketing? <Badge text="digital" type="error" />
 
 This article is about my understanding of *Marketing* and **Digital Marketing** as part of the internship in digital marketing. I am doing this internship in [Digital Deepak](https://digitaldeepak.com/) under the guidance of [Mr. Deepak Kanakaraju](https://www.linkedin.com/in/deepakkanakaraju/).
 [How to Succeed with Digital Marketing?](https://medium.com/@hema.thiruchelvam07/how-to-succeed-with-digital-marketing-75f0b2fddc78/)

@@ -5,7 +5,6 @@ description: "Articles on Healthy Lifestyle, Digital Marketing strategies, etc.,
 position: 1
 category: Getting Started
 author: "Hema Thiruchelvam"
-lastUpdated: 2020-12-12
 home: true
 heroImage: /myassets/img/logo.png
 tagline: Mindful articles on Health | Home | Digital marketing ...
@@ -18,5 +17,5 @@ features:
   details: Happy Home
 - title: Digital
   details: Digital Marketing
-footer: Copyright © 2020 | Made by Hema Thiruchelvam with ❤️
+footer: Copyright © 2020
 ---

@@ -21,6 +21,5 @@
     "@vuepress/theme-blog": "^2.3.3",
     "vuepress": "^1.5.3",
     "vuepress-plugin-seo": "^0.1.4"
-  },
-  "dependencies": {}
+  }
 }

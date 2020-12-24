@@ -13,5 +13,3 @@ footer: "Copyright © 2020 | Made by Hema Thiruchelvam with ❤️"
 ## Subscription <Badge text="beta" type="warning"/>
 
 <signin-form></signin-form>
-
-<powered-by></powered-by>

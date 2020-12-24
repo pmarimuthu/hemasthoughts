@@ -1,68 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-		<url>
-			<loc>https://www.hemasthoughts.com/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-		<url>
-			<loc>https://www.hemasthoughts.com/aboutme/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
 
-		<url>
-			<loc>https://www.hemasthoughts.com/stories/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
+<url>
+  <loc>https://hemasthoughts.com/</loc>
+  <lastmod>2020-12-20T18:03:32+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/aboutme/</loc>
+  <lastmod>2020-12-20T18:03:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/stories/</loc>
+  <lastmod>2020-12-20T18:08:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/stories/starting-a-healthy-lifestyle/</loc>
+  <lastmod>2020-12-20T18:08:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/stories/fundamentals-of-weight-loss/</loc>
+  <lastmod>2020-12-20T18:08:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/stories/succeed-with-digital-marketing/</loc>
+  <lastmod>2020-12-20T18:08:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/stories/deep-marketing-automation/</loc>
+  <lastmod>2020-12-20T18:08:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/member/signin/</loc>
+  <lastmod>2020-12-20T18:04:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/ta/</loc>
+  <lastmod>2020-12-20T18:04:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/ta/aboutme/</loc>
+  <lastmod>2020-12-20T18:09:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/ta/stories/</loc>
+  <lastmod>2020-12-20T18:09:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/stories/succeed-with-digital-marketing/index.html</loc>
+  <lastmod>2020-12-20T18:08:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/stories/starting-a-healthy-lifestyle/index.html</loc>
+  <lastmod>2020-12-20T18:08:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/stories/fundamentals-of-weight-loss/index.html</loc>
+  <lastmod>2020-12-20T18:08:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/stories/deep-marketing-automation/index.html</loc>
+  <lastmod>2020-12-20T18:08:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/ta/stories/starting-a-healthy-lifestyle/</loc>
+  <lastmod>2020-12-20T18:09:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/ta/stories/fundamentals-of-weight-loss/</loc>
+  <lastmod>2020-12-20T18:09:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/ta/stories/succeed-with-digital-marketing/</loc>
+  <lastmod>2020-12-20T18:09:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/ta/stories/deep-marketing-automation/</loc>
+  <lastmod>2020-12-20T18:09:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/ta/stories/succeed-with-digital-marketing/index.html</loc>
+  <lastmod>2020-12-20T18:09:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/ta/stories/starting-a-healthy-lifestyle/index.html</loc>
+  <lastmod>2020-12-20T18:09:31+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/ta/stories/fundamentals-of-weight-loss/index.html</loc>
+  <lastmod>2020-12-20T18:09:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hemasthoughts.com/ta/stories/deep-marketing-automation/index.html</loc>
+  <lastmod>2020-12-20T18:09:23+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
 
-		<url>
-			<loc>https://www.hemasthoughts.com/stories/starting-a-healthy-lifestyle/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
 
-		<url>
-			<loc>https://www.hemasthoughts.com/stories/fundamentals-of-weight-loss/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://www.hemasthoughts.com/stories/succeed-with-digital-marketing/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://www.hemasthoughts.com/member/signin/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://www.hemasthoughts.com/ta/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://www.hemasthoughts.com/ta/aboutme/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://www.hemasthoughts.com/ta/stories/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://www.hemasthoughts.com/ta/stories/starting-a-healthy-lifestyle/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://www.hemasthoughts.com/ta/stories/fundamentals-of-weight-loss/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://www.hemasthoughts.com/ta/stories/succeed-with-digital-marketing/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-	</urlset>
+</urlset>

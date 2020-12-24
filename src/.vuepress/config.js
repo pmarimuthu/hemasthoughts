@@ -1,9 +1,4 @@
-// const { fs, path } = require('@vuepress/shared-utils')
-
 module.exports = ctx => ({
-
-  //dest: 'src/vuepress',
-
   title: 'Hema\'s Thoughts',
   description: 'Mindful thoughts on Health | Home | Digital > [தமிழ் / English ]',
 
@@ -15,7 +10,7 @@ module.exports = ctx => ({
 
   themeConfig: {
     logo: '/myassets/img/logo.png',
-    domain: 'www.hemasthoughts.com',
+    domain: 'hemasthoughts.com',
     repo: 'pmarimuthu/hemasthoughts',
     docsBranch: 'development',
     docsDir: 'src',
@@ -56,6 +51,10 @@ module.exports = ctx => ({
               {
                   text: 'Digital Marketing',
                   link: '/stories/succeed-with-digital-marketing/'
+              },
+              {
+                text: 'Deep Marketing',
+                link: '/stories/deep-marketing-automation/'
               }
             ]
           }
@@ -84,6 +83,7 @@ module.exports = ctx => ({
             '/stories/starting-a-healthy-lifestyle/',
             '/stories/fundamentals-of-weight-loss/',
             '/stories/succeed-with-digital-marketing/',
+            '/stories/deep-marketing-automation',
           ]
         }
       ],
@@ -104,23 +104,17 @@ module.exports = ctx => ({
     }
   },
 
-  plugins: [
-    ['seo', {
-      siteTitle: (_, $site) => $site.title,
-      title: $page => $page.title,
-      description: $page => $page.frontmatter.description,
-      author: (_, $site) => $site.themeConfig.author,
-      tags: $page => $page.frontmatter.tags,
-      url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
-    }],
-    ['@vuepress/back-to-top', true],
-    ['@vuepress/pwa', {
-      serviceWorker: true,
-      updatePopup: true
-    }],
-    ['@vuepress/medium-zoom', true],
-    ['@vuepress/google-analytics', {
+  plugins: {
+    '@vuepress/back-to-top': true,
+    '@vuepress/pwa': {
+      updatePopup: {
+        message: 'New content is available',
+        buttonText: 'Refresh'
+      }
+    },
+    '@vuepress/medium-zoom': true,
+    '@vuepress/google-analytics': {
       ga: 'UA-181818681-1'
-    }]
-  ]
+    }
+  }
 })

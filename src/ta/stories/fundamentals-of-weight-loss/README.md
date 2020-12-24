@@ -1,9 +1,8 @@
 ---
 sidebar: auto
-lastUpdated: 2020-12-12
 author: Hema Thiruchelvam
 
-prev: false
+prev: ../deep-marketing-automation/
 next: ../starting-a-healthy-lifestyle/
 
 meta:
