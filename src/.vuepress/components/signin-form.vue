@@ -9,54 +9,69 @@
     {{ message }}
 
     <div v-show="isSignIn">
-        <form>
-            <h3 class="signin">Sign In</h3>
-            <div class="login-form">
-                <div class="form-header">Email</div>
-                <div>
-                <input type="email" class="form-control" v-model="email" required />
-                </div>
-                <div class="form-header">Password</div>
-                <div>
-                <input type="password" class="form-control" v-model="password" required />
-                </div>
+      <form>
+        <h3 class="signin">Sign In</h3>
+        <div class="login-form">
+          <div class="form-header">Email</div>
+          <div>
+            <input type="email" class="form-control" v-model="email" required />
+          </div>
+          <div class="form-header">Password</div>
+          <div>
+            <input
+              type="password"
+              class="form-control"
+              v-model="password"
+              required
+            />
+          </div>
 
-                <div class="btn-row">
-                <button class="btn" @click="login">Sign In</button>
-                </div>
-            </div>
-        </form>
+          <div class="btn-row">
+            <button class="btn" @click="login">Sign In</button>
+          </div>
+        </div>
+      </form>
     </div>
 
     <div v-show="isSignUp">
-        <form>
-            <h3 class="signup">Sign Up</h3>
-            <div class="login-form">
-                <div class="form-header">First Name</div>
-                <div>
-                <input type="text" class="form-control" v-model="firstname" required />
-                </div>
-                <div class="form-header">Last Name</div>
-                <div>
-                <input type="text" class="form-control" v-model="lastname" />
-                </div>
-                <div class="form-header">Email</div>
-                <div>
-                <input type="email" class="form-control" v-model="email" required />
-                </div>
+      <form>
+        <h3 class="signup">Sign Up</h3>
+        <div class="login-form">
+          <div class="form-header">First Name</div>
+          <div>
+            <input
+              type="text"
+              class="form-control"
+              v-model="firstname"
+              required
+            />
+          </div>
+          <div class="form-header">Last Name</div>
+          <div>
+            <input type="text" class="form-control" v-model="lastname" />
+          </div>
+          <div class="form-header">Email</div>
+          <div>
+            <input type="email" class="form-control" v-model="email" required />
+          </div>
 
-                <div class="btn-row">
-                <button class="btn" @click="register">Register</button>
-                </div>
-            </div>
-        </form>
+          <div class="btn-row">
+            <button class="btn" @click="register">Register</button>
+          </div>
+        </div>
+      </form>
     </div>
+  <p class="horizontalLine"></p>
+    {{ posts.length }}
+  <p class="horizontalLine"></p>
+    {{ errors.length }}
   </div>
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
-  
   data() {
     return {
       isSignIn: true,
@@ -65,24 +80,48 @@ export default {
       firstname: "",
       lastname: "",
       email: "",
-      message: ">_"
+      message: ">_",
+
+      posts: "",
+      errors: "",
     };
   },
 
   methods: {
     toggleSign(key) {
-        if(key === 0) {
-            this.isSignIn = true;
-            this.isSignUp = false;
-        }
-        if(key === 1) {
-            this.isSignIn = false;
-            this.isSignUp = true;
-        }
+      if (key === 0) {
+        this.isSignIn = true;
+        this.isSignUp = false;
+      }
+      if (key === 1) {
+        this.isSignIn = false;
+        this.isSignUp = true;
+      }
     },
 
     login() {
-      console.log('On Login ...');
+      console.log("On Login ...");
+      axios
+        .get(`http://jsonplaceholder.typicode.com/posts`)
+        .then((response) => {
+          this.posts = response.data;
+          console.log('axios > get > then > ' + this.posts.length);
+        })
+        .catch((e) => {
+          this.errors.push(e);
+          console.log('axios > get > catch > ' + e.message);
+        });
+      /*
+      axios.post('/post/server', JSON.parse(data))
+            .then(function (res) {
+              output.className = 'container';
+              output.innerHTML = res.data;
+            })
+            .catch(function (err) {
+              output.className = 'container text-danger';
+              output.innerHTML = err.message;
+            });
+      */
     },
 
     register() {
@@ -111,22 +150,22 @@ export default {
     border: 0;
   }
 
-.signin {
+  .signin {
     padding: 0.6rem 2rem;
     outline: none;
     background-color: orange;
     color: white;
     border: 0;
-    font-weight:bold;
+    font-weight: bold;
   }
 
-.signup {
+  .signup {
     padding: 0.6rem 2rem;
     outline: none;
     background-color: purple;
     color: white;
     border: 0;
-    font-weight:bold;
+    font-weight: bold;
   }
 
   .form-header {
@@ -148,9 +187,9 @@ export default {
     }
   }
 
-  .horizontalLine {  
-    border: none; 
-    border-bottom: 1px solid gainsboro;  
-   }
+  .horizontalLine {
+    border: none;
+    border-bottom: 1px solid gainsboro;
+  }
 }
 </style>
