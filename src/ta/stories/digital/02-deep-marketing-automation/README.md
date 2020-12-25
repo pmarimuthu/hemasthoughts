@@ -1,17 +1,16 @@
 ---
 sidebar: auto
 author: Hema Thiruchelvam
-
-prev: ../succeed-with-digital-marketing/
-next: ../starting-a-healthy-lifestyle/
-
 meta:
-  - name: titile
+  - name: title
     content: Deep Marketing Automation using tools
   - name: description
     content: Deep Marketing Automation using ConvertKit, Typeform and Zapier - Sending personalized email based on customer's inputs.
   - name: keywords
     content: Digtial Deep Marketing, Typeform ConvertKit Zapier, Personalized emails from single email
+
+prev: /stories/digital/01-succeed-with-digital-marketing/
+next: /stories/
 ---
 
 ## Deep Marketing Automation using ConvertKit, Typeform and Zapier <Badge text="digital" type="error" />
@@ -199,7 +198,7 @@ Regards,
 Team Hema'sThoughts
 ```
 
-## Reference:
+### Reference
 
 * [Conditional Email Content based on Tags](https://help.convertkit.com/en/articles/2502501-conditional-email-content-based-on-tags)
   

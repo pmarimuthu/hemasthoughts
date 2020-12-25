@@ -33,31 +33,31 @@ module.exports = ctx => ({
             link: '/stories/'
           },
           {
-            text: 'Health',
-            items: [
-              {
-                text: 'Healthy Lifestyle',
-                link: '/stories/starting-a-healthy-lifestyle/'
-              },
-              {
-                text: 'Weight Loss',
-                link: '/stories/fundamentals-of-weight-loss/'
-              }
-            ]
-          },
-          {
             text: 'Digital',
             items: [
               {
                   text: 'Digital Marketing',
-                  link: '/stories/succeed-with-digital-marketing/'
+                  link: '/stories/digital/01-succeed-with-digital-marketing/'
               },
               {
                 text: 'Deep Marketing',
-                link: '/stories/deep-marketing-automation/'
+                link: '/stories/digital/02-deep-marketing-automation/'
               }
             ]
-          }
+          },
+          {
+            text: 'Health',
+            items: [
+              {
+                text: 'Healthy Lifestyle',
+                link: '/stories/health/01-starting-a-healthy-lifestyle/'
+              },
+              {
+                text: 'Weight Loss',
+                link: '/stories/health/02-fundamentals-of-weight-loss/'
+              }
+            ]
+          }          
         ]
       },
       {
@@ -67,7 +67,7 @@ module.exports = ctx => ({
     ],
 
     sidebar: {
-      'aboutme/': [
+      '/aboutme/': [
         {
           title: 'About Me',
           collapsable: false,
@@ -75,15 +75,15 @@ module.exports = ctx => ({
             '/aboutme/'
           ]
         }
-      ], 'stories/': [
+      ], '/stories/': [
         {
           title: 'Stories',
           collapsable: false,
           children: [
-            '/stories/starting-a-healthy-lifestyle/',
-            '/stories/fundamentals-of-weight-loss/',
-            '/stories/succeed-with-digital-marketing/',
-            '/stories/deep-marketing-automation',
+            'digital/01-succeed-with-digital-marketing/',
+            'digital/02-deep-marketing-automation',
+            'health/01-starting-a-healthy-lifestyle/',
+            'health/02-fundamentals-of-weight-loss/'
           ]
         }
       ],
@@ -93,13 +93,11 @@ module.exports = ctx => ({
   locales: {
     '/': {
       lang: 'English',
-      label: 'English',
       selectText: 'Languages'
 
     },
     '/ta/': {
       lang: 'Tamil',
-      label: 'தமிழ்',
       selectText: 'Languages'
     }
   },

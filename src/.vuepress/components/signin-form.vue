@@ -61,10 +61,6 @@
         </div>
       </form>
     </div>
-  <p class="horizontalLine"></p>
-    {{ posts.length }}
-  <p class="horizontalLine"></p>
-    {{ errors.length }}
   </div>
 </template>
 
@@ -81,9 +77,6 @@ export default {
       lastname: "",
       email: "",
       message: ">_",
-
-      posts: "",
-      errors: "",
     };
   },
 
@@ -101,27 +94,6 @@ export default {
 
     login() {
       console.log("On Login ...");
-      axios
-        .get(`http://jsonplaceholder.typicode.com/posts`)
-        .then((response) => {
-          this.posts = response.data;
-          console.log('axios > get > then > ' + this.posts.length);
-        })
-        .catch((e) => {
-          this.errors.push(e);
-          console.log('axios > get > catch > ' + e.message);
-        });
-      /*
-      axios.post('/post/server', JSON.parse(data))
-            .then(function (res) {
-              output.className = 'container';
-              output.innerHTML = res.data;
-            })
-            .catch(function (err) {
-              output.className = 'container text-danger';
-              output.innerHTML = err.message;
-            });
-      */
     },
 
     register() {

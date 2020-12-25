@@ -1,11 +1,16 @@
 ---
 sidebar: auto
 author: Hema Thiruchelvam
-Title: Starting a Healthy Lifestyle
-description: Starting a Healthy Lifestyle | Balanced Diet | Adequate Exercise | Activity Journal | Food Journal
+meta:
+  - name: title
+    content: Starting a Healthy Lifestyle
+  - name: description
+    content: Starting a Healthy Lifestyle | Balanced Diet | Adequate Exercise | Activity Journal | Food Journal
+  - name: keywords
+    content: Healthy-Lifestyle, Balanced-Diet, Adequate-Exercise, Activity-Journal, Food-Journal
 
-prev: ../fundamentals-of-weight-loss/
-next: ../succeed-with-digital-marketing/
+prev: /stories/
+next: /stories/health/02-fundamentals-of-weight-loss/
 ---
 
 ## Starting a Healthy Lifestyle <Badge text="health" />
@@ -24,8 +29,6 @@ With the increasing prevalence of lifestyle diseases in India, one out of four I
 Adopting bad habits, such as poor diet, lack of exercise, irregular sleep patterns, and resorting to excessive smoking or alcohol use might put you in with 38 million people, who are limited due to one or more chronic health conditions.
 Actually, the fact is we all know the importance of following a healthy lifestyle, but the problem most of us have is we do not know where to 
 start.
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/YUjkW9JaD90" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Components of a healthy lifestyle
 
@@ -88,5 +91,3 @@ Write down your to-do list for the day in your activity journal. Prioritize your
 
 Start to maintain a food journal about what you eat daily and mention the timings also. This will help you find your problem area in food.
 Start following all the points discussed above and let me meet you in my next blog where we look into each component of a healthy lifestyle and its benefits.
-
-<div style="text-align: right"><i>Loading more stories for you ...</i></div>

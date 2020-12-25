@@ -17,5 +17,5 @@ features:
   details: Happy Home
 - title: Digital
   details: Digital Marketing
-footer: Copyright © 2020 | Made by Hema Thiruchelvam with ❤️
+footer: Copyright © 2020
 ---

@@ -1,17 +1,16 @@
 ---
 sidebar: auto
 author: Hema Thiruchelvam
-
-prev: ../deep-marketing-automation/
-next: ../starting-a-healthy-lifestyle/
-
 meta:
-  - name: titile
+  - name: title
     content: Fundamentals of Weight Loss by HemasThoughts.com
   - name: description
     content: Fundamentals of Weight Loss by HemasThoughts.com
   - name: keywords
     content: Fundamentals of Weight Loss BMI, BMR, TDEE
+
+prev: /stories/health/01-starting-a-healthy-lifestyle/
+next: /stories/
 ---
 
 ## Fundamentals of Weight Loss <Badge text="health" />

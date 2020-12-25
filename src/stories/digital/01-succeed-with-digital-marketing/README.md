@@ -1,11 +1,16 @@
 ---
 sidebar: auto
 author: Hema Thiruchelvam
-Title: Hemas Thoughts on How to Succeed with Digital Marketing?
-description: How to Succeed with Digital Marketing?
+meta:
+  - name: title
+    content: Hemas Thoughts on How to Succeed with Digital Marketing?
+  - name: description
+    content: How to Succeed with Digital Marketing?
+  - name: keywords
+    content: Digital Marketing
 
-prev: ../starting-a-healthy-lifestyle/
-next: ../deep-marketing-automation/
+prev: /stories/
+next: /stories/digital/02-deep-marketing-automation/
 ---
 
 ## How to Succeed with Digital Marketing? <Badge text="digital" type="error" />
@@ -129,7 +134,3 @@ Finally, as our mentor says **"Choose a category and become a leader in that cat
 With the learnings of marketing, understanding and implementing the concepts of Digital marketing and with success mindset you can reach heights in Digital marketing.
 
 *Wish you all the very best*; 
-
-<div style="text-align: right"><i>Loading more stories for you ...</i></div>
-
-<br/>
