@@ -1,7 +1,7 @@
 module.exports = ctx => ({
   title: 'Hema\'s Thoughts',
   description: 'Mindful thoughts on Health | Home | Digital > [தமிழ் / English ]',
-
+ 
   head: [
     ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/myassets/img/favicon.ico"}],
     ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/myassets/img/favicon.ico"}],

@@ -68,6 +68,12 @@
 import axios from "axios";
 
 export default {
+  beforeMount() {
+    console.log('beforeMount >>>>');
+  },
+  mounted() {
+    console.log('mounted >>>>');
+  },
   data() {
     return {
       isSignIn: true,
