@@ -1,5 +1,5 @@
 # hemasthoughts
-Hema's Thoughts | https://www.hemasthoughts.com
+Hema's Thoughts | https://hemasthoughts.com
 
 …or create a new repository on the command line
 echo "# test" >> README.md
