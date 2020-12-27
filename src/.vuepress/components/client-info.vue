@@ -13,14 +13,12 @@ export default {
   name: "ClientInfo",
 
   beforeMount() {
-    console.log("beforeMount >>_");
   },
   mounted() {
-    console.log("mounted >>_");
     axios
       .get(this.ipGeoURL, { params: this.ipGeoParams })
       .then( (response) => { this.getIpGeo(response); })
-      .catch( (error) => { console.log(error); })
+      .catch( (error) => {})
       .then( () => {});
   },
   data() {
@@ -50,14 +48,11 @@ export default {
 
         }
         else {
-          //console.log(response.status);
         }
-        //console.log(this.userInfo);
         this.postJsonB();
     },
 
     postJsonB() {
-      console.log("\n------------ postJsonBin ------------");
       const options = {
         method: 'POST',
         headers: { 'secret-key': '$2b$10$RD3Jt3tVN.uBGS2W9ohrtu/3I76qvsekmMJFK/rCq2KG7pTr1ynt6' },
@@ -65,9 +60,9 @@ export default {
         url: 'https://api.jsonbin.io/b'
       };
       axios(options)
-      .then( (response) => { console.log(response); })
-      .catch( (error) => { console.log(error); })
-      .then( () => { console.log("done"); });
+      .then( (response) => {} )
+      .catch( (error) => {} )
+      .then( () => {} );
     }
   }
 };
