@@ -11,32 +11,17 @@
     <p v-else style="color:red;">{{ message }}</p>
 
     <div v-show="isSignIn">
-      <form>
         <h3 class="signin">Sign In</h3>
         <div class="login-form">
           <div class="form-header">ID</div>
           <div>
             <input type="binid" class="form-control" v-model="binid" required />
           </div>
-          <div class="form-header">Email</div>
-          <div>
-            <input type="email" class="form-control" v-model="email" />
-          </div>
-          <div class="form-header">Password</div>
-          <div>
-            <input
-              type="password"
-              class="form-control"
-              v-model="password"
-              required
-            />
-          </div>
 
           <div class="btn-row">
-            <button class="btn" @click="login">Sign In</button>
+            <button class="btn-signin" @click="login">Sign In</button>
           </div>
         </div>
-      </form>
     </div>
 
     <div v-show="isSignUp">
@@ -62,7 +47,7 @@
           </div>
 
           <div class="btn-row">
-            <button class="btn" @click="register">Register</button>
+            <button class="btn-signup" @click="register">Register</button>
           </div>
         </div>
       </div>
@@ -109,7 +94,6 @@ export default {
       const options = {
         method: 'GET',
         headers: { 'secret-key': '$2b$10$RD3Jt3tVN.uBGS2W9ohrtu/3I76qvsekmMJFK/rCq2KG7pTr1ynt6' },
-        data: { firstname: this.firstname, lastname: this.lastname, email: this.email },
         url: ( 'https://api.jsonbin.io/b' + '/' + this.binid )
       };
       axios(options)
@@ -169,20 +153,36 @@ export default {
     border: 0;
   }
 
+  .btn-signin {
+    padding: 0.6rem 2rem;
+    outline: none;
+    background-color: #63cde5;
+    color: #0e323b;
+    border: 0;
+  }
   .signin {
     padding: 0.6rem 2rem;
     outline: none;
-    background-color: orange;
-    color: white;
+    background-color: #63cde5;
+    color: #0e323b;
     border: 0;
     font-weight: bold;
   }
 
+  .btn-signup {
+    padding: 0.6rem 2rem;
+    outline: none;
+    background-color: #0e323b;
+    color: #63cde5;
+    border: 0;
+    font-weight: bold;
+  }
+  
   .signup {
     padding: 0.6rem 2rem;
     outline: none;
-    background-color: purple;
-    color: white;
+    background-color: #0e323b;
+    color: #63cde5;
     border: 0;
     font-weight: bold;
   }
