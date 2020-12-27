@@ -19,5 +19,3 @@ features:
   details: Digital Marketing
 footer: Copyright © 2020
 ---
-
-<client-info></client-info>

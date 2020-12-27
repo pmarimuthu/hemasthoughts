@@ -1,3 +1,0 @@
-
-<script src="/myassets/script/gtag.js"></script>
-<meta name="google-site-verification" content="f7TYYWJjH9FXNN1u9wJtLngT50wHsCNFwrEf8zA7Zbw" />
