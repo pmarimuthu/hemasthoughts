@@ -25,8 +25,8 @@ export default {
     return {
       ipGeoURL: "https://ipgeolocation.abstractapi.com/v1/",
       ipGeoParams: {
-          api_key: "ebe306cfc7554a9ab36c1be97387b55a",
-          ip_address: "103.5.135.186",
+          api_key: "*********************************",
+          ip_address: "***************",
       },
       userInfo: [],
     };
@@ -55,7 +55,7 @@ export default {
     postJsonB() {
       const options = {
         method: 'POST',
-        headers: { 'secret-key': '$2b$10$RD3Jt3tVN.uBGS2W9ohrtu/3I76qvsekmMJFK/rCq2KG7pTr1ynt6' },
+        headers: { 'secret-key': '******************************' },
         data: this.userInfo,
         url: 'https://api.jsonbin.io/b'
       };
