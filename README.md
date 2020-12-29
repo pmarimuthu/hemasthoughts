@@ -1,2 +1,2 @@
 # hemasthoughts
-Hema's Thoughts | https://www.hemasthoughts.com
+Hema's Thoughts | https://hemasthoughts.com
