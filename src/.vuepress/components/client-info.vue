@@ -1,7 +1,7 @@
 <template>
   <div>
     <p style="text-align: center">
-      {{ this.userInfo.length }}
+      {{ city }}
     </p>
   </div>
 </template>
@@ -29,21 +29,19 @@ export default {
           ip_address: "***************",
       },
       userInfo: [],
+      city: "",
     };
   },
 
   methods: {
     getIpGeo(response) {
         if(response.status == 200) {
+          this.city = response.data.city;
+
           this.userInfo.push( 
             { ip: response.data.ip_address},
-            { sys: response.data.connection.autonomous_system_number },
             { city: response.data.city },
-            { region: response.data.region },
-            { country: response.data.country },
-            { postal: response.data.postal_code },
-            { lat: response.data.latitude },
-            { long: response.data.longitude }
+            { country: response.data.country }
           );
 
         }

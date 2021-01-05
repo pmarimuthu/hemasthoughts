@@ -1,6 +1,7 @@
 ---
 sidebar: auto
 author: Hema Thiruchelvam
+canonicalUrl: https://hemasthoughts.com/ta/stories/digital/02-deep-marketing-automation
 meta:
   - name: title
     content: Deep Marketing Automation using tools
@@ -12,7 +13,6 @@ meta:
 prev: /stories/digital/01-succeed-with-digital-marketing/
 next: /stories/
 ---
-
 ## Deep Marketing Automation using ConvertKit, Typeform and Zapier <Badge text="digital" type="error" />
 
 In this article, you are going to see about the fundamentals deep marketing. 
@@ -203,4 +203,3 @@ Team Hema'sThoughts
 * [Conditional Email Content based on Tags](https://help.convertkit.com/en/articles/2502501-conditional-email-content-based-on-tags)
   
 * [Deep Marketing Automation using ConvertKit, Typeform and Zapier](https://marimuthup.medium.com/deep-marketing-automation-using-convertkit-typeform-and-zapier-ce3c35da0b86)
-  

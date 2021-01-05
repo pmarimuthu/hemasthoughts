@@ -1,6 +1,7 @@
 ---
 sidebar: auto
 author: Hema Thiruchelvam
+canonicalUrl: https://hemasthoughts.com/stories/digital/01-succeed-with-digital-marketing
 meta:
   - name: title
     content: Hemas Thoughts on How to Succeed with Digital Marketing?

@@ -1,6 +1,7 @@
 ---
 sidebar: auto
 author: Hema Thiruchelvam
+canonicalUrl: https://hemasthoughts.com/stories
 meta:
   - name: title
     content: Hema's Thoughts - Mindful Thoughts

@@ -103,6 +103,17 @@ module.exports = ctx => ({
   },
 
   plugins: {
+    '@vuepress/blog': {
+      sitemap: {
+        hostname: 'https://localhost:8080'
+      },
+      newsletter: {
+        endpoint: "https://billyyyyy3320.us4.list-manage.com/subscribe/post?u=4905113ee00d8210c2004e038&amp;id=bd18d40138"
+      },
+      feed: {
+        canonical_base: 'https://localhost:8080',
+       },
+    },
     '@vuepress/back-to-top': true,
     '@vuepress/pwa': {
       updatePopup: {

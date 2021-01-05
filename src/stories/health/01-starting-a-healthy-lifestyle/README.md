@@ -1,6 +1,7 @@
 ---
 sidebar: auto
 author: Hema Thiruchelvam
+canonicalUrl: https://hemasthoughts.com/stories/health/01-starting-a-healthy-lifestyle
 meta:
   - name: title
     content: Starting a Healthy Lifestyle

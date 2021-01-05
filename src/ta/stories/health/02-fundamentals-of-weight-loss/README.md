@@ -1,6 +1,7 @@
 ---
 sidebar: auto
 author: Hema Thiruchelvam
+canonicalUrl: https://hemasthoughts.com/ta/stories/health/02-fundamentals-of-weight-loss
 meta:
   - name: title
     content: Fundamentals of Weight Loss by HemasThoughts.com

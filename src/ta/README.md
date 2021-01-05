@@ -2,6 +2,7 @@
 name: "Hema's Thoughts"
 title: "Hema's Thoughts"
 description: "Articles on Healthy Lifestyle, Digital Marketing strategies, etc., - in simple words that you can understand easily"
+canonicalUrl: https://hemasthoughts.com/ta
 position: 1
 category: Getting Started
 author: "Hema Thiruchelvam"
