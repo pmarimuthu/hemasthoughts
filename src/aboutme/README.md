@@ -9,7 +9,7 @@ canonicalUrl: https://hemasthoughts.com/aboutme
 
 ![heroImage](/myassets/img/logo.png#center)
 
-<client-info></client-info>
+<geo-location></geo-location>
 
 <style>
 img[src*='#center'] { 
