@@ -1,12 +1,26 @@
 <template>
   <div>
-    <button @click="getGeoLocation">Get GeoLocation</button>
+    <button @click="getGeoLocation" class="action-button">
+      Get GeoLocation
+    </button>
 
     <p style="text-align: center">
       {{ geolocation }}
     </p>
   </div>
 </template>
+
+<style>
+.action-button {
+  display: inline-block;
+  color: #fff;
+  background-color: #3eaf7c;
+  border-radius: 1px;
+  transition: background-color 0.1s ease;
+  box-sizing: border-box;
+  border-bottom: 1px solid #389d70;
+}
+</style>
 
 <script>
 import axios from "axios";
@@ -44,11 +58,14 @@ export default {
               console.log(address.address_components[6]);
               console.log(address.address_components[7]);
               console.log(address.address_components[8]);
-              this.geolocation = 
-                  address.address_components[5].long_name + ', ' + 
-                  address.address_components[6].long_name + ', ' +
-                  address.address_components[7].long_name + ', ' +
-                  address.address_components[8].long_name;
+              this.geolocation =
+                address.address_components[5].long_name +
+                ", " +
+                address.address_components[6].long_name +
+                ", " +
+                address.address_components[7].long_name +
+                ", " +
+                address.address_components[8].long_name;
             })
             .catch((error) => {})
             .then(() => {});
