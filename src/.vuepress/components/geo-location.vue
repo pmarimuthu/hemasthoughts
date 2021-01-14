@@ -1,24 +1,32 @@
 <template>
   <div>
-    <button @click="getGeoLocation" class="action-button">
-      Get GeoLocation
-    </button>
-
-    <p style="text-align: center">
-      {{ geolocation }}
-    </p>
+    <table border=1>
+      <tr>
+        <td>
+          <button @click="getGeoLocation" class="action-button">
+            Get GeoLocation
+          </button>
+          {{ geolocation }}
+        </td>
+      </tr>
+    </table>
   </div>
 </template>
 
 <style>
 .action-button {
   display: inline-block;
+  font-size: 1.2rem;
   color: #fff;
   background-color: #3eaf7c;
-  border-radius: 1px;
+  padding: 0.8rem 1.6rem;
+  border-radius: 4px;
   transition: background-color 0.1s ease;
   box-sizing: border-box;
   border-bottom: 1px solid #389d70;
+}
+.no-border {
+  border: none;
 }
 </style>
 
@@ -29,7 +37,9 @@ export default {
   name: "GeoLocation",
 
   beforeMount() {},
-  mounted() {},
+  mounted() {
+    this.getGeoLocation()
+  },
   data() {
     return {
       geolocation: "",
@@ -49,15 +59,11 @@ export default {
             url:
               "https://maps.googleapis.com/maps/api/geocode/json?latlng=" +
               this.geolocation +
-              "&key=AIzaSyBzQtScnlh1kuR_RbtxmOU_Ofuc6OS2xxo",
+              "&key=AIzaSyBzQmaritScnlh1kuR_RbtxmOU_Ofuc6OS2xxo",
           };
           axios(options)
             .then((response) => {
               const address = response.data.results[0];
-              console.log(address.address_components[5]);
-              console.log(address.address_components[6]);
-              console.log(address.address_components[7]);
-              console.log(address.address_components[8]);
               this.geolocation =
                 address.address_components[5].long_name +
                 ", " +
