@@ -41,4 +41,3 @@ canonicalUrl: https://hemasthoughts.com/dynamic/
 
 <br/>
 <geo-location></geo-location>
-

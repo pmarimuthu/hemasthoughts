@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table border=1>
+    <table border="1">
       <tr>
         <td>
           <button @click="getGeoLocation" class="action-button">
@@ -38,7 +38,7 @@ export default {
 
   beforeMount() {},
   mounted() {
-    this.getGeoLocation()
+    this.getGeoLocation();
   },
   data() {
     return {
@@ -64,14 +64,8 @@ export default {
           axios(options)
             .then((response) => {
               const address = response.data.results[0];
-              this.geolocation =
-                address.address_components[5].long_name +
-                ", " +
-                address.address_components[6].long_name +
-                ", " +
-                address.address_components[7].long_name +
-                ", " +
-                address.address_components[8].long_name;
+              this.geolocation = address.formatted_address;
+              console.log(address);
             })
             .catch((error) => {})
             .then(() => {});
