@@ -93,7 +93,7 @@ export default {
     login() {
       const options = {
         method: 'GET',
-        headers: { 'secret-key': '$2b$10$RD3Jt3tVN.uBGS2W9ohrtu/3I76qvsekmMJFK/rCq2KG7pTr1ynt6' },
+        headers: { 'secret-key': 'YOUR-SECRET-KEY' },
         url: ( 'https://api.jsonbin.io/b' + '/' + this.binid )
       };
       axios(options)
@@ -112,7 +112,7 @@ export default {
     register() {
       const options = {
         method: 'POST',
-        headers: { 'secret-key': '$2b$10$RD3Jt3tVN.uBGS2W9ohrtu/3I76qvsekmMJFK/rCq2KG7pTr1ynt6' },
+        headers: { 'secret-key': 'YOUR-SECRET-KEY' },
         data: { firstname: this.firstname, lastname: this.lastname, email: this.email },
         url: 'https://api.jsonbin.io/b'
       };
