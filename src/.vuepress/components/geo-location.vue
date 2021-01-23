@@ -59,7 +59,7 @@ export default {
             url:
               "https://maps.googleapis.com/maps/api/geocode/json?latlng=" +
               this.geolocation +
-              "&key=AIzaSyBzQmaritScnlh1kuR_RbtxmOU_Ofuc6OS2xxo",
+              "&key=YOUR-API-KEY",
           };
           axios(options)
             .then((response) => {
